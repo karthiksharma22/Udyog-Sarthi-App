@@ -1,0 +1,178 @@
+.test-container {
+  width: auto;
+  margin-left: 70px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 50px 0px;
+}
+
+.test-title {
+  color: white;
+  font-size: 35px;
+}
+
+.test-container i {
+  transform: translate(-40px, 0%);
+  cursor: pointer;
+}
+
+.search-cont {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar {
+  width: 60%;
+  border: none;
+  outline: none;
+  font-family: "poppins";
+  border-radius: 20px;
+  font-size: 17px;
+  padding: 8px 20px;
+}
+
+.job-data {
+  background-color: #ededed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  border-radius: 10px;
+  margin-top: 60px;
+  padding: 50px 30px;
+  max-width: 70%;
+}
+
+.score-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.scorecard {
+  background-color: white;
+  width: 23%;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.skills-title {
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.score {
+  font-weight: 700;
+  color: maroon;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style: none;
+}
+
+.list li {
+  background-color: #727272;
+  color: white;
+  padding: 3px 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  font-style: italic;
+}
+
+.resource-title {
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.card-test {
+  width: 22%;
+  height: auto;
+  padding: 14px 12px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to bottom right, #73063e, #000000);
+  color: white;
+}
+.card-test a {
+  color: rgb(0, 247, 255);
+  font-size: 13px;
+}
+
+.dflex {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  border-radius: 10px;
+  margin-top: -10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px 0px;
+}
+
+.Name {
+  margin-top: -0px;
+  font-weight: 600;
+  font-size: 19px;
+  text-align: center;
+}
+
+.question {
+  margin: 15px 0px;
+}
+.question li {
+  margin: 12px 0px;
+  font-size: 18px;
+  user-select: none;
+}
+
+.agreement {
+  display: flex;
+  gap: 10px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.agreement label {
+  font-size: 13px;
+  font-style: italic;
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+.textarea {
+  width: 90%;
+  height: 70px;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.submit {
+  background: linear-gradient(to bottom right, #73063e, #000000);
+  color: white;
+  padding: 5px 18px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: poppins;
+  margin-left: 30px;
+}

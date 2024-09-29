@@ -1,0 +1,106 @@
+.container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100vh;
+  width: auto;
+  padding-left: 80px;
+  overflow-x: hidden;
+}
+
+.design {
+  margin-left: 50px;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/originals/e0/c2/88/e0c288afda859280541838b5f4f10d74.jpg");
+  background-size: cover;
+}
+
+.form-container {
+  background: linear-gradient(185deg, #ffffff, #d9c3e2);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  width: 350px;
+}
+
+.form-toggle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-toggle button {
+  width: 50%;
+  padding: 12px;
+  background-color: rgb(243, 240, 240);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px 10px 0 0;
+}
+
+.form-toggle .active {
+  background-color: rgb(44, 5, 81);
+  color: white;
+}
+
+.login {
+  background-color: rgb(44, 5, 81);
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form h2 {
+  margin-bottom: 20px;
+}
+
+.form input,
+.form select {
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form button {
+  padding: 12px;
+  background-color: rgb(44, 5, 81);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form a {
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.form p {
+  text-align: center;
+}
+
+.success {
+  color: green;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
